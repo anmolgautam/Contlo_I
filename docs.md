@@ -1,0 +1,159 @@
+# Documentation
+
+## Onboarding
+
+To start using Contlo’s Helpdesk for your product, follow the steps below to set it up.
+
+## New User
+
+If you are a new user of Contlo, follow the steps below:
+
+1. Sign up in Contlo with your Google account or manually via Email.
+2. On the next page, enter the required details (Email, Name, Password).
+3. On the **Complete your profile** page, enter the details about your business (Company website, Phone number, etc).
+4. On the **Let’s Get Started** screen, select **Helpdesk** and click **Proceed**. It opens the Contlo's Helpdesk Dashboard.
+5. Set up the following to start using Contlo’s Helpdesk tool:
+    1. [Connect your Store](https://helpdesk-docs.contlo.com/docs/connect-your-store)
+    2. [Invite your Team Members](https://helpdesk-docs.contlo.com/docs/invite-your-team-members)
+    3. [Set up Channels](https://helpdesk-docs.contlo.com/docs/set-up-channels)
+    4. [Start Conversations](https://helpdesk-docs.contlo.com/docs/start-conversations)
+    
+
+**You have to do these steps in order to be onboarded**
+
+1) Connect your Store. ——- Shopify,etc 
+
+2) Invite your Team Members
+
+3) Set up Channels —— sms, email, Insta, FB
+
+4) Start Conversations
+
+## Step 1 - Connecting your Stores
+
+- Shopify
+    - To connect your Shopify store with Contlo, open your Contlo dashboard and follow the steps given below:
+        1. Navigate to **Setup your Account > Connect your Account** on the **Get Started** page.
+        2. Select **Shopify** from the store list, and click the **Connect now** button.
+        3. Enter your *Shopify store URL* in the designated input field and click **Connect now**.
+        4. You would be redirected to the Shopify login for authentication. Enter your credentials.
+        5. Once logged in, on the **Install** page, grant the necessary permissions for Contlo integration.
+        6. Click **Install** to establish the connection between the Contlo application and your Shopify store.
+- WooCommerce
+    - To connect your WooCommerce store with Contlo, open your WooCommerce dashboard and follow the steps given below:
+        1. Open the WordPress Admin Panel, go to **Plugins**, and click the **Add New** button.
+        2. On the **Add Plugin** screen, search for the *Contlo* plugin and hit **Install Now**.
+        3. Once the installation is complete, click the **Activate** button.
+        4. Open the **Contlo** page from the sidebar and click the **Connect your account** button.
+        5. Log in to your Contlo account. Click **Approve** to grant the necessary permissions for Contlo integration.
+        6. You would be redirected to the WooCommerce setup page on Contlo. Click the **Verify setup** button to establish the connection.
+- Custom Store
+    - To connect your custom store with Contlo, open your Contlo dashboard and follow the steps given below:
+        1. Navigate to **Setup your Account > Connect your Account** on the **Get Started** page.
+        2. Select **Install Manually** from the store list, and click the **Connect now** button.
+        3. On the **Unique Snippet Code** screen, copy the given snippet and paste it within the `<head>` section of every page where you intend to track Contlo events. (`shop_id` contains the Public API key of your Contlo application. This is auto-populated.)
+        4. Once you've added the snippet to your custom store, enter your store URL in the **Enter your URL to verify the connection** field. Click **Verify** to test the connection.
+        5. When the verification is successful, click **Connect Now** to establish the connection between the Contlo application and your custom store.
+
+## Step 2 - Invite your Team Members
+
+After connecting your store, you need to add your team members to Contlo to resolve the customers' support queries. Follow the steps given below:
+
+1. On the **Get Started** screen, click **Add Users** under **Invite team members**.
+2. On the **Add New Team member** modal, fill in the required details as described below:
+    1. **Name**: Enter your team member’s name.
+    2. **Email:** Enter the Email ID.
+    3. **Roles:** Select the roles for the respective team member:
+        1. Admin
+        2. Manager
+        3. Helpdesk Agent
+        4. Operator
+    4. **Active Channels**: Select the channels for the respective support agent.
+3. Click **Send Invite** to invite your team members.
+
+## Step 3 - Set up Channels
+
+You need to set up channels to receive support requests from your customers. Contlo supports the following channels:
+
+- SMS
+    - Follow the steps below to set up SMS on Contlo:
+        1. On the Contlo dashboard, go to **App Market > Channels > SMS** and install the SMS application.
+        2. Open the SMS application, and select Twilio as your SMS vendor. Click **Proceed**.
+        3. On the **Account Authorization** screen, read and select the Terms and Conditions checkbox. Click **Proceed**.
+        4. The One-Time Recharge modal opens up. Add the amount you want to add to your account and click **Submit**. Complete the transaction. (You can also add an amount for sending SMS via Twilio later).
+            1. Contlo adds $ 2 to your account so that you can start conversations via SMS instantly. However as Twilio charges $ 0.15/SMS, you must add credit to your account for a seamless experience.
+        5. Once the setup is complete, you can see your Twilio number and Consent Keywords on the SMS application homepage.
+- EMAIL
+    - Follow the steps below to set the Email channel in Contlo:
+        - Add Senders domain in Contlo:
+            1. Go to the profile section on the top right corner and open **Settings**.
+            2. Go to **Accounts > Marketing Settings** from the sidebar on the Settings homepage.
+            3. On the Store Settings, open the **Sender Domains** tab and click the **Add domain**.
+            4. On the **Add Domain Details** modal, add the following details:
+            5. **Enter your Domain**: Add your email provider domain.
+            6. **Enter your Sending Domain**: Add your Sending domain.
+            7. Click **Proceed**. This generates the DNS Records for your domain.
+            8. You would move to the **DNS Records** page. It displays the generated DNS records, the hostname, the expected record, the current record, and the status of your Domain verification.
+        
+        - DNS Provider Configuration
+            1. Open the DNS provider managing your domain.
+            2. Go to DNS settings and add the DNS details generated from Contlo in the respective fields.
+        - Verification
+            
+            Follow the steps below to verify the records on Contlo added to the DNS provider:
+            
+            1. On the DNS records page, click **Verify records**.
+            2. If any record stays unverified, copy and paste it again in your DNS settings and hit the **Verify records** button again.
+    - Set up Email Forwarding
+        
+        To receive and send Emails via Helpdesk conversations, you must set up Email forwarding from your Email provider to Contlo.
+        
+        **Prerequisite:** 
+        
+        Before setting up your Email provider, you must copy the forwarding Email ID from Contlo. Follow the steps below:
+        
+        1. Go to **Marketing Settings > Email**, click the ⋮ icon on the verified Sender Emai ID, and select Email forwarding.
+        2. On the Email forwarding modal, copy the forwarding Email ID.
+        3. Add the forwarding Email in your Email provider settings.
+        
+        **Set up Email Provider:**
+        
+        - GMAIL
+            - Follow the steps below to configure Email forwarding on Gmail:
+                1. Open your Gmail account that you want to connect to Contlo, click the **⚙️** icon on the top right corner of the screen, and click the **See all settings** button.
+                2. On the Settings page, navigate to the **Forwarding and POP/IMAP** tab. Click the **Add a forwarding address** button.
+                3. On the **Add forwarding address** modal, paste the forwarding address copied from Contlo.
+                4. A new window opens asking you to Confirm the forwarding address. Click **Proceed**.
+                5. Gmail sends a verification mail. This code would be sent to your Helpdesk's conversations. Click the verification link to verify Email forwarding.
+                6. Navigate to **Settings> Channels> Email** and open the Email forwarding modal for the verified Email ID. Click **Verify Setup** on the Email forwarding field. Once verified, you would receive an email in your conversations stating successful verification.
+                7. By default, Gmail keeps forwarding disabled. To enable forwarding, select the radio button that says **Forward a copy of the incoming mail to**.
+                8. Click **Save Changes** to complete the setup.
+            
+            - OUTLOOK
+                - To set up Email forwarding from Outlook to Contlo, follow the steps below:
+                    - Due to a security update on 5th October 2020, Microsoft Outlook by default disables email forwarding to an external mailbox. As a result, you might get an error message in Outlook after you have set up email forwarding to Contlo. Follow the steps below to fix this error:
+                        1. Log in to the admin panel of your Microsoft Office 365 account.
+                        2. Scroll down to the ‘**Security & Compliance Center**’ section.
+                        3. From the left-hand menu, click **Threat Management**.
+                        4. In the dropdown menu, click on **Policy> Anti-Spam settings**.
+                        5. Navigate to the Outbound spam filter policy section.
+                        6. Click on ‘**Create new outbound policy**.
+                            1. Set a name for the new policy.
+                            2. Select the Automatic forwarding option in the edit screen.
+                            3. In the dropdown menu, make sure to select the **On – Forwarding is enabled** option.
+                            4. Click on **Save** button.
+                
+                Your emails will now be successfully forwarded from Outlook to Contlo's Helpdesk.
+                
+            
+            - Set up email forwarding on outlook
+                - Follow the steps below to set up Email forwarding on Outlook:
+                    1. Open the Outlook account that you want to connect to the Helpdesk. Click the ⚙️ icon on the top right corner of the screen. Click **View all Outlook settings**.
+                    2. On the Settings window, Navigate to **Mail > Forwarding**.
+                        1. Select the **Enable forwarding** checkbox.
+                        2. Enter the forwarding address copied from Contlo in the **Forward my emails** to input box.
+                        3. Select the **Keep a copy of forwarded messages** checkbox.
+                    3. Click the **Save** button to complete the setup process.
+
+- Start Conversation
+    - After connecting your store, inviting team members, and setting up channels, you can now start conversations with your customers.All the conversations are visible under the Conversations tab on the sidebar.

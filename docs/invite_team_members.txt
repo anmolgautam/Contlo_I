@@ -1,0 +1,15 @@
+Step 2 - Invite your Team Members
+
+After connecting your store, you need to add your team members to Contlo to resolve the customers' support queries. Follow the steps given below:
+
+1. On the **Get Started** screen, click **Add Users** under **Invite team members**.
+2. On the **Add New Team member** modal, fill in the required details as described below:
+    1. **Name**: Enter your team member’s name.
+    2. **Email:** Enter the Email ID.
+    3. **Roles:** Select the roles for the respective team member:
+        1. Admin
+        2. Manager
+        3. Helpdesk Agent
+        4. Operator
+    4. **Active Channels**: Select the channels for the respective support agent.
+3. Click **Send Invite** to invite your team members.

@@ -1,0 +1,26 @@
+To start using Contlo’s Helpdesk for your product, follow the steps below to set it up.
+
+## New User
+
+If you are a new user of Contlo, follow the steps below:
+
+1. Sign up in Contlo with your Google account or manually via Email.
+2. On the next page, enter the required details (Email, Name, Password).
+3. On the Complete your profile page, enter the details about your business (Company website, Phone number, etc).
+4. On the Let’s Get Started screen, select Helpdesk and click Proceed. It opens the Contlo's Helpdesk Dashboard.
+5. Set up the following to start using Contlo’s Helpdesk tool:
+    1. [Connect your Store](https://helpdesk-docs.contlo.com/docs/connect-your-store)
+    2. [Invite your Team Members](https://helpdesk-docs.contlo.com/docs/invite-your-team-members)
+    3. [Set up Channels](https://helpdesk-docs.contlo.com/docs/set-up-channels)
+    4. [Start Conversations](https://helpdesk-docs.contlo.com/docs/start-conversations)
+    
+
+You have to do these steps in order to be onboarded
+
+1) Connect your Store. ——- Shopify,etc 
+
+2) Invite your Team Members
+
+3) Set up Channels —— sms, email, Insta, FB
+
+4) Start Conversations

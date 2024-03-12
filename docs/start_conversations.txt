@@ -1,0 +1,2 @@
+Start Conversation
+    - After connecting your store, inviting team members, and setting up channels, you can now start conversations with your customers.All the conversations are visible under the Conversations tab on the sidebar.

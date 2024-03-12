@@ -1,0 +1,25 @@
+Step 1 - Connecting your Stores
+
+- Shopify
+    - To connect your Shopify store with Contlo, open your Contlo dashboard and follow the steps given below:
+        1. Navigate to **Setup your Account > Connect your Account** on the **Get Started** page.
+        2. Select **Shopify** from the store list, and click the **Connect now** button.
+        3. Enter your *Shopify store URL* in the designated input field and click **Connect now**.
+        4. You would be redirected to the Shopify login for authentication. Enter your credentials.
+        5. Once logged in, on the **Install** page, grant the necessary permissions for Contlo integration.
+        6. Click **Install** to establish the connection between the Contlo application and your Shopify store.
+- WooCommerce
+    - To connect your WooCommerce store with Contlo, open your WooCommerce dashboard and follow the steps given below:
+        1. Open the WordPress Admin Panel, go to **Plugins**, and click the **Add New** button.
+        2. On the **Add Plugin** screen, search for the *Contlo* plugin and hit **Install Now**.
+        3. Once the installation is complete, click the **Activate** button.
+        4. Open the **Contlo** page from the sidebar and click the **Connect your account** button.
+        5. Log in to your Contlo account. Click **Approve** to grant the necessary permissions for Contlo integration.
+        6. You would be redirected to the WooCommerce setup page on Contlo. Click the **Verify setup** button to establish the connection.
+- Custom Store
+    - To connect your custom store with Contlo, open your Contlo dashboard and follow the steps given below:
+        1. Navigate to **Setup your Account > Connect your Account** on the **Get Started** page.
+        2. Select **Install Manually** from the store list, and click the **Connect now** button.
+        3. On the **Unique Snippet Code** screen, copy the given snippet and paste it within the `<head>` section of every page where you intend to track Contlo events. (`shop_id` contains the Public API key of your Contlo application. This is auto-populated.)
+        4. Once you've added the snippet to your custom store, enter your store URL in the **Enter your URL to verify the connection** field. Click **Verify** to test the connection.
+        5. When the verification is successful, click **Connect Now** to establish the connection between the Contlo application and your custom store.
